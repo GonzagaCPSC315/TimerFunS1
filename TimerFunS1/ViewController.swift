@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { (timer) in
             print("tick")
             //seconds += 1
+            
         })
     }
     
